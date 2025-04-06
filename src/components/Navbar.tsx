@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assests/logo.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +25,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <motion.div
-            whileHover={{ scale: 1.05 }}
             className="flex-shrink-0"
           >
-            <span className="text-2xl font-bold text-white font-poppins">
-              GPS<span className="text-accent">3D</span>
-            </span>
+            <img src={logo} alt="GPS3D Logo" className="h-12" />
           </motion.div>
           
           {/* Desktop Navigation */}
