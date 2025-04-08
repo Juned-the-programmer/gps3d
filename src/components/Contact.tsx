@@ -112,8 +112,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2 font-poppins">Email Us</h3>
-                <a href="mailto:info@gps3d.com" className="text-gray-400 hover:text-accent transition-colors font-inter">
-                  info@gps3d.com
+                <a href="mailto:Sales@gps3d.co.in" className="text-gray-400 hover:text-accent transition-colors font-inter">
+                  Sales@gps3d.co.in
                 </a>
               </div>
             </div>
